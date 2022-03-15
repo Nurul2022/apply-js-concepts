@@ -3,15 +3,14 @@
 // console.log(remainder == 0); 
 // console.log(number % 2 == 0); 
 
-
+//Is even function
 function isEven(number) {
     if (number % 2 == 0) {
         return true;
     }
     return false;
 }
-
-const myNumber = 1641;
+const myNumber = 101;
 const isMyNumberEven = isEven(myNumber);
 console.log('is my number even ', isMyNumberEven)
 
@@ -27,9 +26,8 @@ function isOdd(number) {
     }
     return false;
 }
-
 const isMyNumberOdd = isOdd(myNumber);
 console.log('is my number odd', isMyNumberOdd);
 
 const isHerNumberOdd = isOdd(herNumber);
-console.log('is her number odd', isHerNumberOdd);
+console.log('is her number odd', isHerNumberOdd);  
