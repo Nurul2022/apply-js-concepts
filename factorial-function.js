@@ -11,7 +11,6 @@ function getFactorial(number) {
     }
     return factorial;
 }
-
 var firstFactorial = getFactorial(7);
 console.log('factorial of 7 is ', firstFactorial);
 
